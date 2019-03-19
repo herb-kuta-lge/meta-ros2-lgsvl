@@ -8,7 +8,7 @@ RDEPENDS_${PN}_append = " \
     cv-bridge \
     python3-opencv \
     ros2-web-bridge \
-    ros2-joy \
+    joy \
     com.enactjs.app.face \
     packagegroup-duckietown2 \
     packagegroup-duckietown-dependencies \
