@@ -8,6 +8,7 @@ inherit ros_ament_python
 
 RDEPENDS_${PN} = " \
     launch \
+    python3-core \
 "
 
 SRCREV = "6e3e342f2363bea10460a4acf4a004a3b3490901"
