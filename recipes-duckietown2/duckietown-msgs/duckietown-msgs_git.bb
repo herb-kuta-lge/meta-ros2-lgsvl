@@ -3,7 +3,8 @@ SUMMARY = "Duckietown package for ROS2. Provides helper functions used in the Du
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=1e7b3bcc2e271699c77c769685058cbe"
 
-inherit ament pythonpath-insane
+inherit ros2
+inherit ros_ament_cmake
 
 DEPENDS = " \
     builtin-interfaces \
@@ -13,6 +14,7 @@ DEPENDS = " \
     ros2-geometry-msgs \
     ros2-sensor-msgs \
     ros2-visualization-msgs \
+    ${ROS_AMENT_CMAKE_BUILDTOOL_DEPENDS} \
 "
 
 RDEPENDS_${PN} = " \

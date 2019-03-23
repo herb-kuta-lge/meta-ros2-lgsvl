@@ -3,7 +3,8 @@ SUMMARY = "Object classifier based on inception-v4"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=68b329da9893e34099c7d8ad5cb9c940"
 
-inherit ament-python
+inherit ros2
+inherit ros_ament_python
 
 RDEPENDS_${PN} = " \
     python3-core \

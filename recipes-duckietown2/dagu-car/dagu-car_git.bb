@@ -3,7 +3,8 @@ SUMMARY = "Dagu-car package for ROS2."
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM="file://package.xml;beginline=8;endline=8;md5=1e7b3bcc2e271699c77c769685058cbe"
 
-inherit ament-python
+inherit ros2
+inherit ros_ament_python
 
 RDEPENDS_${PN} = " \
     rclpy \

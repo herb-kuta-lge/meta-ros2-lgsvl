@@ -3,7 +3,8 @@ SUMMARY = "Duckietown demos ROS2 package containing demo launch files"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=e0cab6c37b6a5e30363d6546a6bccfb5"
 
-inherit ament-python
+inherit ros2
+inherit ros_ament_python
 
 RDEPENDS_${PN} = " \
     ros2-launch \
