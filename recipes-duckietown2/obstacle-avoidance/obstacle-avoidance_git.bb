@@ -8,7 +8,7 @@ inherit ros_ament_python
 
 RDEPENDS_${PN} = " \
     rclpy \
-    ros2-sensor-msgs \
+    sensor-msgs \
     duckietown-msgs \
      \
 "

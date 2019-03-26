@@ -11,7 +11,7 @@ RDEPENDS_${PN} = " \
     python3-picamera \
     rclpy \
     builtin-interfaces \
-    ros2-sensor-msgs \
+    sensor-msgs \
     duckietown-msgs \
 "
 

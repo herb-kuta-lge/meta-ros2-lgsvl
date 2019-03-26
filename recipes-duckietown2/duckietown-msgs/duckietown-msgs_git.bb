@@ -10,17 +10,16 @@ DEPENDS = " \
     builtin-interfaces \
     rosidl-default-runtime \
     rosidl-typesupport-c \
-    ros2-std-msgs \
-    ros2-geometry-msgs \
-    ros2-sensor-msgs \
-    ros2-visualization-msgs \
-    ${ROS_AMENT_CMAKE_BUILDTOOL_DEPENDS} \
+    std-msgs \
+    geometry-msgs \
+    sensor-msgs \
+    visualization-msgs \
 "
 
 RDEPENDS_${PN} = " \
-    ros2-std-msgs \
-    ros2-geometry-msgs \
-    ros2-sensor-msgs\
+    std-msgs \
+    geometry-msgs \
+    sensor-msgs\
 "
 
 SRCREV = "6e3e342f2363bea10460a4acf4a004a3b3490901"
