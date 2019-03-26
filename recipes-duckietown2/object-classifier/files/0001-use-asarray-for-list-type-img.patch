@@ -1,0 +1,13 @@
+diff --git a/object_classifier/object_classification.py b/object_classifier/object_classification.py
+index 51bf98e..d25ee1c 100755
+--- a/object_classifier/object_classification.py
++++ b/object_classifier/object_classification.py
+@@ -92,7 +92,7 @@ class object_classifier(Node):
+
+
+     def processImage_(self, data):
+-        np_arr = np.fromstring(data.data, np.uint8)
++        np_arr = np.asarray(data.data, dtype=np.uint8)
+         cv_image = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+
+         cv_image = self.resize_image(cv_image, IMAGE_DIM)

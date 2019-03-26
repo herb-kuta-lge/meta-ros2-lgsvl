@@ -14,6 +14,7 @@ RDEPENDS_${PN} = " \
 SRCREV = "6e3e342f2363bea10460a4acf4a004a3b3490901"
 SRC_URI = " \
     git://github.com/lgsvl/duckietown2.git;subpath=80-deep-learning/object_classifier  \
+    file://0001-use-asarray-for-list-type-img.patch \
 "
 
 S="${WORKDIR}/object_classifier"
